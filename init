@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#set -e
+source common.sh
+
+
+export HOST=$(ifconfig | awk '$1=="inet"' | grep broadcast | awk '{print $2}')
+export PORT=3000
+
+# validate_wget
+# validate_git
+# validate_mongodb
+# install_node
+install_kanjuice_repo
+# start_mongodb_server
+# start_node_server
