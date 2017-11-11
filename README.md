@@ -1,3 +1,3 @@
 # kanjuiceProdSetup
 
-Run ./init it will clone adjuvant and it aumatically start server in background. 
+Run ./init it will clone adjuvant and it automatically start server in background. 
